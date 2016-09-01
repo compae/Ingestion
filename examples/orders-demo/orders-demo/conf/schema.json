@@ -1,0 +1,32 @@
+{
+    "title": "Fakenator Schema",
+    "type": "object",
+    "bodyType": "object",
+    "bodyField": "data",
+    "additionalProperties": false,
+    "properties": {
+
+        "order_id": {
+            "type": "string"
+        },
+        "client_id": {
+            "type": "int32"
+        },
+        "shopping_center": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        },
+        "payment_method": {
+            "type": "string"
+        },
+        "timestamp": {
+            "type": "string"
+        },
+        "day_time_zone": {
+            "type": "string"
+        }
+
+    }
+}
