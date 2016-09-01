@@ -12,4 +12,3 @@ target
 .log
 *.log
 test_derby_db
-examples/orders-demo/stratio-json-morphline/libext/*.jar
